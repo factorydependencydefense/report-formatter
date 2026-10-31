@@ -1,0 +1,23 @@
+{
+  "name": "report-formatter",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Formats usage reports for the weekly digest.",
+  "engines": {
+    "node": ">=20"
+  },
+  "main": "src/index.js",
+  "scripts": {
+    "build": "esbuild src/index.js --bundle --platform=node --format=cjs --packages=external --outfile=dist/index.js",
+    "test": "node --test \"test/**/*.test.js\""
+  },
+  "dependencies": {
+    "chalk": "6.0.1",
+    "lodash": "4.17.10",
+    "moment": "2.31.0",
+    "underscore": "1.13.8"
+  },
+  "devDependencies": {
+    "esbuild": "0.28.2"
+  }
+}
