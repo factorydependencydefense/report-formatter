@@ -9,7 +9,8 @@
   "main": "src/index.js",
   "scripts": {
     "build": "esbuild src/index.js --bundle --platform=node --format=cjs --packages=external --outfile=dist/index.js",
-    "test": "node --test \"test/**/*.test.js\""
+    "test": "node --test \"test/*.test.js\"",
+    "test:security": "node --test \"test/security/**/*.test.js\""
   },
   "dependencies": {
     "chalk": "6.0.1",
