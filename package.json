@@ -14,7 +14,7 @@
   },
   "dependencies": {
     "chalk": "6.0.1",
-    "lodash": "4.17.10",
+    "lodash": "4.18.1",
     "moment": "2.31.0",
     "underscore": "1.13.8"
   },
