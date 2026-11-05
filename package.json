@@ -13,10 +13,7 @@
     "test:security": "node --test \"test/security/**/*.test.js\""
   },
   "dependencies": {
-    "chalk": "6.0.1",
-    "lodash": "4.17.10",
-    "moment": "2.31.0",
-    "underscore": "1.13.8"
+    "lodash": "4.17.10"
   },
   "devDependencies": {
     "esbuild": "0.28.2"
